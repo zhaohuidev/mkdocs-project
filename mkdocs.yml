@@ -1,0 +1,31 @@
+site_name: zhaotignzhi's docs
+site_url: https://example.com/
+nav:
+    - Home: index.md
+    - About: about.md
+    - 'User Guide':
+        - 'Writing your docs': 'writing-your-docs.md'
+        - 'Styling your docs': 'styling-your-docs.md'
+theme:
+  name: material
+  language: zh
+# theme:
+#     name: readthedocs
+#     highlightjs: true
+#     locale: en
+#     hljs_languages:
+#         - yaml
+#         - rust
+# theme:
+#     name: mkdocs
+#     highlightjs: true
+#     locale: en
+#     hljs_languages:
+#         - yaml
+#         - rust
+markdown_extensions:
+    - toc:
+        permalink: "#"
+        baselevel: 2
+        separator: "-"
+
